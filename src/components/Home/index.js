@@ -14,13 +14,7 @@ import {
 export const Home = (props) => {
   return (
     <HomeContainer id='home'>
-      <HomeHero />
-      <MintingIsLive />
-      <FunnyNFTCareer />
-      <Provider />
-      <ChooseUS />
-      <RoadMap />
-      <Contact />
+      test page
     </HomeContainer>
   )
 }
