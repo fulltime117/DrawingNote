@@ -14,7 +14,6 @@ export const App = () => {
 
   return (
     <MenuContext.Provider value={[selectedMenu, setSelectedMenu]}>
-      <Header />
       <ScrollToTop>
         <HelmetTags />
         <Switch>
