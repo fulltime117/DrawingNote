@@ -20,8 +20,6 @@ export const App = () => {
         <Switch>
           <Route exact path='/'>
             <Home />
-
-
             
           </Route>
         </Switch>
