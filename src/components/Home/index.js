@@ -20,8 +20,8 @@ export const Home = (props) => {
                 <div class="d-flex justify-content-between position-relative pt-3 pb-2">
                     <h2 id="list of autocad commands">List of AutoCAD commands</h2>
                     <input type="text" id="keyInput" class="position-fixed" onkeyup="keyFun()"
-                        placeholder="Search for names.." title="Type in a name">
-                    <input type="text" id="console-input" class="position-fixed" onkeyup="consoleSearch()">
+                        placeholder="Search for names.." title="Type in a name" />
+                    <input type="text" id="console-input" class="position-fixed" onkeyup="consoleSearch()" />
                 </div>
 
                 <table border="1" style="border-collapse:collapse" data-tablestyle="MsoTableGrid" data-tablelook="0"
