@@ -45,8 +45,6 @@ export const ThemeProvider = ({ children, ...props }) => {
     body {
       font-family: '${theme.fonts.primary?.name || 'Helvetica'}', sans-serif;
       margin: 0;
-      background-color: black;
-      color: ${props => props.theme.colors?.headingColor || '#000'};
 
       ${theme.rtl && css`
         direction: rtl;
