@@ -59,23 +59,6 @@ export const ThemeProvider = ({ children, ...props }) => {
       font-family: inherit;
     }
   `
-
-  useEffect(() => {
-    const fonts = Object.entries(theme.fonts || {})
-    fonts.forEach(([name, fontFamily]) => {
-      if (!window.document.getElementById(`${name}-font-styles`)) {
-        const font = window.document.createElement('link')
-        font.id = `${name}-font-styles`
-        font.rel = 'stylesheet'
-        font.async = true
-        font.defer = true
-        font.href = `https://fonts.googleapis.com/css2?family=${fontFamily.name}:wght@${fontFamily.weights.join(';')}&display=swap`
-
-        window.document.body.appendChild(font)
-      }
-    })
-  }, [theme])
-
   const update = (theme) => {
     setTheme(theme)
   }

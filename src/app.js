@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {
   Switch,
   Route
 } from 'react-router-dom'
+import { ScrollToTop } from './components/ScrollToTop'
 import { Home } from './pages/Home'
 
 export const App = () => {
-  const [selectedMenu, setSelectedMenu] = useState('home')
-
   return (
     <ScrollToTop>
       <Switch>
