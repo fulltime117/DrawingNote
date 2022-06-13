@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   section {
     display: flex;
     justify-content: flex-start;
-    padding-left: 20%;
+    padding-left: 18%;
   }
 
   .general-content table tr, td{

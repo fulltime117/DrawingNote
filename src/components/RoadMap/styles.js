@@ -36,7 +36,7 @@ export const Fcontainer = styled.div`
       right: 75px; 
       width: 24px; 
       height:3px; 
-      background-color: #F7F7F7;
+      background-color: #f3f3f3;
     }
 
     .f-close {
@@ -45,7 +45,7 @@ export const Fcontainer = styled.div`
       right: 16px; 
       width: 23px; 
       height:3px; 
-      background-color: #F7F7F7;
+      background-color: #f3f3f3;
     }
 
     .f-pushe {
@@ -54,7 +54,7 @@ export const Fcontainer = styled.div`
       left: 5%; 
       width: 30px; 
       height:4px; 
-      background-color: #F7F7F7;
+      background-color: #f3f3f3;
     }
 
     .f-next {
@@ -63,7 +63,7 @@ export const Fcontainer = styled.div`
       left: 23%; 
       width: 25px; 
       height:4px; 
-      background-color: #F7F7F7;
+      background-color: #f3f3f3;
     }
 
     .f-error {
