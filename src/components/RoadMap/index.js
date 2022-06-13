@@ -68,9 +68,9 @@ export const RoadMap = (props) => {
     }
   }, [searchNum])
 
-  useEffect(() => {
-    console.log('file: ', file)
-  }, [file])
+  // useEffect(() => {
+  //   console.log('file: ', file)
+  // }, [file])
 
   // //////////////////////////////////////////////////////////////////////////////
 
