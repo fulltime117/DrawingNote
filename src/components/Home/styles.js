@@ -1,9 +1,11 @@
 import styled, { css } from 'styled-components'
 
 export const HomeContainer = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 25px;
+  section {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20%;
+  }
 
   .general-content table tr, td{
     border: none;
@@ -12,20 +14,36 @@ export const HomeContainer = styled.div`
   }
 
   
-#keyInput {
+  #keyInput {
+    position: fixed;
+    top: 25px;
+    right: 20%;
+  }
+
+
+  #console-input {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    opacity: 0.2;
+    outline: none !important;
+  }
+
+`
+
+export const SerchNumWrapper = styled.div`
   position: fixed;
-  top: 25px;
-  right: 20%;
-}
+  top: 0;
+  right: 0;
 
 
-#console-input {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  opacity: 0.2;
-  outline: none !important;
-}
-
+  input {
+    width: 50px;
+    border: none !important;
+    border-radius: 0;
+    padding-left: 0;
+    opacity: 0.07;
+    text-align: right;
+  }
 `

@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { RoadMap } from '../RoadMap';
+import { SearchBar } from '../Shared'
+
 import {
-  HomeContainer
+  HomeContainer,
+  SerchNumWrapper
 } from './styles'
 
 export const Home = (props) => {
+  const [searchNum, setSearchNum] = useState(null)
+
 
   const searchKey = () => {
     var input, filter, tr, td, i, txtValue;
@@ -19,8 +25,13 @@ export const Home = (props) => {
         } else {
           tr[i].style.display = "none";
         }
-      }       
+      }
     }
+  }
+
+  const handleSearchNum = (val) => {
+    console.log('val ', val)
+    setSearchNum(val)
   }
 
 
@@ -40,7 +51,6 @@ export const Home = (props) => {
                 title="Type in a name"
                 onKeyUp={() => searchKey()}
               />
-              <input type="text" id="console-input" className="position-fixed" />
             </div>
 
             <table border="1">
@@ -842,9 +852,21 @@ export const Home = (props) => {
               </tbody>
             </table>
           </div>
-
+          <div className="d-flex justify-content-center">
+            <div className="col-10">
+              <img src="/images/autocad-shortcuts-guide-2_orig.jpg" alt="" />
+              <img src="/images/AutoCAD-keyboard-shortcuts-1.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </section>
+      <SerchNumWrapper id='console-search'>
+        <SearchBar
+          lazyLoad
+          onSearch={handleSearchNum}
+        />
+      </SerchNumWrapper>
+      <RoadMap searchNum={searchNum} />
     </HomeContainer>
   )
 }

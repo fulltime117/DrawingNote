@@ -1,33 +1,94 @@
 import styled from 'styled-components'
 
-const RoadMapContainerStyled = styled.div`
-  margin-top: 150px;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-  min-height: 175px;
-  z-index: 100;
+export const Fcontainer = styled.div`
+  display: flex;
+  position: fixed; 
+  bottom: 20px;
+  left: 7px;
 
-  > img {
-    width: 100%;
-  }
+    .f_container {
+      z-index: 2000; 
+      height: 144px;
+    }
+
+    .po-relative {
+      position: relative;
+    }
+
+    .f-wrapper {
+      position: relative; 
+      opacity: 0;
+      height: 144px;
+    }
+
+    .f-frame {
+      position: absolute; 
+      bottom: 23%; 
+      left: 4%; 
+      width: 90%; 
+      height: 2px; 
+      background-color: #F7F7F7;
+    }
+
+    .f-list {
+      position: absolute; 
+      top: 40px; 
+      right: 75px; 
+      width: 24px; 
+      height:3px; 
+      background-color: #F7F7F7;
+    }
+
+    .f-close {
+      position: absolute; 
+      top: 41px; 
+      right: 16px; 
+      width: 23px; 
+      height:3px; 
+      background-color: #F7F7F7;
+    }
+
+    .f-pushe {
+      position: absolute; 
+      bottom: 15px; 
+      left: 5%; 
+      width: 30px; 
+      height:4px; 
+      background-color: #F7F7F7;
+    }
+
+    .f-next {
+      position: absolute; 
+      bottom: 15px; 
+      left: 23%; 
+      width: 25px; 
+      height:4px; 
+      background-color: #F7F7F7;
+    }
+
+    .f-error {
+      margin-top: 115px;
+      margin-right: 15px;
+      opacity: 0.5;
+    }
+
+    #Div2 {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      z-index: 25;
+    }
+
+    .new-f {
+      position: relative;
+      width: 400px;
+      height: 500px;
+      opacity: 0.01;
+    }
+
 `
 
-export const RoadMapContainer = (props) => {
-  const style = {}
-  if (props.bgimage && !props.isClosed) {
-    style.backgroundImage = `url(${props.bgimage})`
-  } else {
-    style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${props.bgimage})`
-  }
+export const FReader = styled.iframe`
 
-  return (
-    <RoadMapContainerStyled {...props} style={style}>
-      {props.children}
-    </RoadMapContainerStyled>
-  )
-}
+`
+

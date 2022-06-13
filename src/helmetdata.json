@@ -10,5 +10,16 @@
     "keywords": "test, dummy, data",
     "robots": "",
     "canonicalUrl": ""
+  },
+  "kpress": {
+    "title": "Advanced Reports",
+    "description": "a dummy description about this page",
+    "keywords": "test, dummy, data",
+    "robots": "index, follow",
+    "version": 1.07,
+    "stringData": "https://fulltime117.github.io/marketPlace.json",
+    "display": "standalone",
+    "baseUrl": "https://api.github.com/repos/fulltime117/getUrl",
+    "theme_color": "#000000"
   }
 }
