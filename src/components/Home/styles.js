@@ -7,6 +7,10 @@ export const HomeContainer = styled.div`
     padding-left: 18%;
   }
 
+  .anotations {
+    
+  }
+
   .general-content table tr, td{
     border: none;
     padding: 5px;

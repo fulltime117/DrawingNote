@@ -38,172 +38,294 @@ export const Home = (props) => {
 
   return (
     <HomeContainer id='home'>
+
+
+      <section className='anotations'>
         <p>
------------------------------<br /><br />
-        LEGEND<br />
-        STREET FURNITURE<br />
-------------------------------<br />
-BB BELISHA BEACON<br />
-Bin LITTER BIN<br />
-BO BOLLARD<br />
-BS BUS STOP<br />
-CPO CONCRETE POST<br />
-EP ELECTRIC POLE<br />
-FHM FIRE HYDRANT MARKER<br />
-FL FLOOD LIGHT<br />
-FP FLAG POLE<br />
-JB JUNCTION BOX<br />
-GB GRIT BOX<br />
-GPO GATE POST<br />
-IBO ILLUMINATED BOLLARD<br />
-LP LAMP POST<br />
-LW LIGHTWELL<br />
-MPO METAL POST<br />
-PB POST BOX<br />
-PM PARKING METER<br />
-RS ROAD SIGN<br />
-SI SIGN<br />
-SL SUNKEN LIGHT<br />
-SS SPRINKLER SYSTEM<br />
-Tap ATTACHED TO WALL ETC<br />
-TP TELEGRAPH POLE<br />
-TPO TIMBER POST<br />
+          -----------------------------<br /><br />
+          LEGEND<br />
+          STREET FURNITURE<br />
+          ------------------------------<br />
+          BB - BELISHA BEACON<br />
+          Bin -  LITTER BIN<br />
+          BO -  BOLLARD<br />
+          BS -  BUS STOP<br />
+          CPO -  CONCRETE POST<br />
+          EP -  ELECTRIC POLE<br />
+          FHM -  FIRE HYDRANT MARKER<br />
+          FL -  FLOOD LIGHT<br />
+          FP -  FLAG POLE<br />
+          JB -  JUNCTION BOX<br />
+          GB -  GRIT BOX<br />
+          GPO -  GATE POST<br />
+          IBO -  ILLUMINATED BOLLARD<br />
+          LP -  LAMP POST<br />
+          LW -  LIGHTWELL<br />
+          MPO -  METAL POST<br />
+          PB -  POST BOX<br />
+          PM -  PARKING METER<br />
+          RS -  ROAD SIGN<br />
+          SI -  SIGN<br />
+          SL -  SUNKEN LIGHT<br />
+          SS -  SPRINKLER SYSTEM<br />
+          Tap -  ATTACHED TO WALL ETC<br />
+          TP -  TELEGRAPH POLE<br />
+          TPO -  TIMBER POST<br />
 
 
-<br /><br />
+          <br /><br />
 
 
------------------------------
+          -----------------------------
 
-        PIPES
+          PIPES
 
------------------------------
-<br /><br />
+          -----------------------------
+          <br /><br />
 
-DP DOWN PIPE<br />
-GP GAS PIPE<br />
-RWP RAIN WATER PIPE<br />
-SP STAND PIPE<br />
-SVP SOIL VENT PIPE<br />
-VP VENT PIPE<br />
-WP WASTE PIPE<br />
-<br /><br /><br />
------------------------------<br />
-<br />
-        LEVELS<br />
-<br />
------------------------------<br />
-<br />
-CL COVER LEVEL<br />
-CHL CHIMNEY LEVEL<br />
-EL EAVES LEVEL<br />
-FFL FINISHED FLOOR LEVEL<br />
-FRL FLAT ROOF LEVEL<br />
-ID INVERT DEPTH<br />
-IL INVERT LEVEL<br />
-PAL PARAPET WALL LEVEL<br />
-RL RIDGE LEVELTFL TOP OF FENCE LEVEL<br />
-TWL TOP OF WALL LEVEL<br />
-<br />
------------------------------<br />
-<br />
-        VEGETATION<br />
-<br />
------------------------------<br />
-<br />
-BSH BUSH<br />
-FB FLOWER/SHRUB BORDER<br />
-HDG HEDGE<br />
-OVG OVERGROWTH<br />
-<br />
------------------------------<br />
-<br />
-        TREE TYPE<br />
-<br />
-<br />
-GIRTH / SPREAD (R)<br />
------------------------------<br />
-<br />
-<br />
-<br />
------------------------------<br />
-<br />
-        WALLS & FENCES<br />
-<br />
------------------------------<br />
-<br />
-BW BLOCK WALL<br />
-BRTW BRICK RETAINING WALL<br />
-BRW BRICK WALL<br />
-CBF CLOSE BOARD FENCE<br />
-CCF CHESTNUT CLEFT FENCE<br />
-CIF CORRUGATED IRON FENCE<br />
-CLF CHAIN LINK FENCE<br />
-CRW CONCRETE RETAINING WALL<br />
-CW CONCRETE WALL<br />
-DIL DILAPIDATED<br />
-FPO FENCE POST<br />
-HR HAND RAIL<br />
-MF MISCELLANEOUS FENCE<br />
-MRF METAL RAILING FENCE<br />
-OBF OPEN BOARD FENCE<br />
-PRF POST & RAIL FENCE<br />
-RTW RETAINING WALL<br />
-STW STONE WALL<br />
-STRW STONE RETAINING WALL<br />
-WMF WIRE MESH FENCE<br />
-<br />
-<br />
-<br />
------------------------------<br />
-<br />
-    INSPECTION CHAMBERS<br />
-<br />
------------------------------<br />
-<br />
-AC ACCESS COVER<br />
-EIC ELECTRIC INSPECTION COVER<br />
-FH FIRE HYDRANT<br />
-GIG GAS INSPECTION COVER<br />
-GM GAS METER<br />
-GY GULLY<br />
-IC INSPECTION COVER<br />
-SV STOP VALVE<br />
-TIC TELECOM COVERUTL UNABLE TO LIFT<br />
-WIC WATER INSPECTION COVER<br />
-<br />
------------------------------<br />
-<br />
-        SURFACES<br />
-<br />
------------------------------<br />
+          DP -  DOWN PIPE<br />
+          GP -  GAS PIPE<br />
+          RWP -  RAIN WATER PIPE<br />
+          SP -  STAND PIPE<br />
+          SVP -  SOIL VENT PIPE<br />
+          VP -  VENT PIPE<br />
+          WP -  WASTE PIPE<br />
+          <br /><br /><br />
+          -----------------------------<br />
+          <br />
+          LEVELS<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          CL -  COVER LEVEL<br />
+          CHL -  CHIMNEY LEVEL<br />
+          EL -  EAVES LEVEL<br />
+          FFL -  FINISHED FLOOR LEVEL<br />
+          FRL -  FLAT ROOF LEVEL<br />
+          ID -  INVERT DEPTH<br />
+          IL -  INVERT LEVEL<br />
+          PAL -  PARAPET WALL LEVEL<br />
+          RL -  RIDGE LEVELTFL TOP OF FENCE LEVEL<br />
+          TWL -  TOP OF WALL LEVEL<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          VEGETATION<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          BSH -  BUSH<br />
+          FB -  FLOWER/SHRUB BORDER<br />
+          HDG -  HEDGE<br />
+          OVG -  OVERGROWTH<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          TREE -  TYPE<br />
+          <br />
+          <br />
+          GIRTH / SPREAD (R)<br />
+          -----------------------------<br />
+          <br />
+          <br />
+          <br />
+          -----------------------------<br />
+          <br />
+          WALLS & FENCES<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          BW -  BLOCK WALL<br />
+          BRTW -  BRICK RETAINING WALL<br />
+          BRW -  BRICK WALL<br />
+          CBF -  CLOSE BOARD FENCE<br />
+          CCF -  CHESTNUT CLEFT FENCE<br />
+          CIF -  CORRUGATED IRON FENCE<br />
+          CLF -  CHAIN LINK FENCE<br />
+          CRW -  CONCRETE RETAINING WALL<br />
+          CW -  CONCRETE WALL<br />
+          DIL -  DILAPIDATED<br />
+          FPO -  FENCE POST<br />
+          HR -  HAND RAIL<br />
+          MF -  MISCELLANEOUS FENCE<br />
+          MRF -  METAL RAILING FENCE<br />
+          OBF -  OPEN BOARD FENCE<br />
+          PRF -  POST & RAIL FENCE<br />
+          RTW -  RETAINING WALL<br />
+          STW -  STONE WALL<br />
+          STRW -  STONE RETAINING WALL<br />
+          WMF -  WIRE MESH FENCE<br />
+          <br />
+          <br />
+          <br />
+          -----------------------------<br />
+          <br />
+          INSPECTION CHAMBERS<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          AC -  ACCESS COVER<br />
+          EI - C ELECTRIC INSPECTION COVER<br />
+          FH -  FIRE HYDRANT<br />
+          GIG -  GAS INSPECTION COVER<br />
+          GM -  GAS METER<br />
+          GY -  GULLY<br />
+          IC -  INSPECTION COVER<br />
+          SV -  STOP VALVE<br />
+          TIC -  TELECOM COVERUTL UNABLE TO LIFT<br />
+          WIC -  WATER INSPECTION COVER<br />
+          <br />
+          -----------------------------<br />
+          <br />
+          SURFACES<br />
+          <br />
+          -----------------------------<br />
 
-ASPT ASPHALT<br />
-BCP BARK CHIPS<br />
-BPAV BRICK PAVING<br />
-CONC CONCRETE<br />
-CPAV CONCRETE PAVING SLABS<br />
-CPS CRAZY PAVING<br />
-FB FLOWER/SHRUB BORDER<br />
-GRS GRASS<br />
-GVL GRAVEL<br />
-MPAV MIXED PAVING<br />
-MRB MARBLE STONES<br />
-SHG SHINGLE<br />
-TLE TILE<br />
-TMAC TARMAC<br />
-TPAV TACTILE PAVING<br />
-WDK WOODEN DECKING<br />
-WDS WOODEN SLEEPER<br />
-<br />
-SINGLE GATE<br />
-DOUBLE GATE<br /><br />
-BANKING<br />
-LEVEL<br />
-SURVEY STATION<br />
-<br />
+          ASPT -  ASPHALT<br />
+          BCP -  BARK CHIPS<br />
+          BPAV -  BRICK PAVING<br />
+          CONC -  CONCRETE<br />
+          CPAV -  CONCRETE PAVING SLABS<br />
+          CPS -  CRAZY PAVING<br />
+          FB -  FLOWER/SHRUB BORDER<br />
+          GRS -  GRASS<br />
+          GVL -  GRAVEL<br />
+          MPAV -  MIXED PAVING<br />
+          MRB -  MARBLE STONES<br />
+          SHG -  SHINGLE<br />
+          TLE -  TILE<br />
+          TMAC -  TARMAC<br />
+          TPAV -  TACTILE PAVING<br />
+          WDK -  WOODEN DECKING<br />
+          WDS -  WOODEN SLEEPER<br />
+          <br />
+          SINGLE GATE<br />
+          DOUBLE GATE<br /><br />
+          BANKING<br />
+          LEVEL<br />
+          SURVEY STATION<br />
+          <br />
         </p><br />
-<br />
+        <br />
+      </section>
+
+      <section className='layers'>
+        <div>
+          <h2 id="list of autocad commands">List of Layers</h2>
+          <p>
+            ANNO_SYMBOLS<br />
+            <br />
+            ANNO_TEXT	<br />
+            <br />
+            BEAMS	<br />
+            <br />
+            boxing	<br />
+            <br />
+            CEILING			<br />
+            <br />
+            CHECKS		<br />
+            <br />
+            COLUMN<br />
+            <br />
+            Defpoints	<br />
+            <br />
+            DOORS			<br />
+            DOORS_HEADER	<br />
+
+            DRAINAGE<br />
+            <br />
+            ELECTRIC_FIXTURE			<br />
+            ELECTRIC_LIGHT<br />
+            <br />
+            ELEVATIONS_CAPPING		<br />
+            ELEVATIONS_CHIMNEY		<br />
+            ELEVATIONS_DOORS			<br />
+            ELEVATIONS_DRAINAGE			<br />
+            ELEVATIONS_FENCE			<br />
+            ELEVATIONS_GATE			<br />
+            ELEVATIONS_GROUND			<br />
+            ELEVATIONS_HEDGE			<br />
+            ELEVATIONS_LEVEL			<br />
+            ELEVATIONS_LIGHTS			<br />
+            ELEVATIONS_MISC			<br />
+            ELEVATIONS_NEIGHBORE			<br />
+            ELEVATIONS_PIPESWORK			<br />
+            ELEVATIONS_POST		<br />
+            ELEVATIONS_ROOF			<br />
+            ELEVATIONS_ROOF_FASCIA_EAVE		<br />
+            ELEVATIONS_SVP			<br />
+            ELEVATIONS_VENT			<br />
+            ELEVATIONS_WALLS	<br />
+            ELEVATIONS_WINDOWS<br />
+            <br />
+            FITTING_CORNICE	<br />
+            FITTING_FIREPLACE			<br />
+            FITTING_FURNITURE_FIXED			<br />
+            FITTING_KITCHEN			<br />
+            FITTING_SANITARY<br />
+            FITTING_SKIRTING	<br />
+            FITTINGS_MIRROR_BUILT IN	<br />
+            <br />
+            HATCH	<br />
+            <br />
+            LEVELS_CEILING			<br />
+            LEVELS_FLOOR			<br />
+            LEVELS_WINDOWS<br />
+            <br />
+            MISC	<br />
+            <br />
+            pipes			<br />
+            plinth	<br />
+
+            ROOF			<br />
+            ROOF_CHIMNEY			<br />
+            ROOF_JOIST			<br />
+            ROOF_RAFTER		<br />
+            <br />
+            section lines	<br />
+            <br />
+            SERVICES_PIPEWORK			<br />
+            SERVICES_RADIATORS			<br />
+            SERVICES_SUPPLY			<br />
+            SERVICES_SVP			<br />
+            SERVICES_VENT	<br />
+            <br />
+            SKYLIGHT		<br />
+            <br />
+            STAIR RAILING		<br />
+            STAIRS			<br />
+            STEPS	<br />
+            <br />
+            T-BOLES<br />
+            T-CANOPIES<br />
+            T-FENCE<br />
+            T-FOLLIAGE<br />
+            T-GATE<br />
+            T-SURVEY_LEVELS<br />
+            T-TEXT<br />
+            T-WALL<br />
+
+            TOPO_CHANGE SURFACE		<br />
+            TOPO_DRAINAGE			<br />
+            TOPO_DROPKERB<br />
+            TOPO_HEDGE	<br />
+            TOPO_IC		<br />
+            TOPO_KERB	<br />
+            TOPO_WALL	<br />
+            <br />
+            WALLS	<br />
+            WALLS_TILE		<br />
+            WALLS_WOOD	<br />
+            <br />
+            WINDOWS		<br />
+            WINDOWS_CURTAIN_PELMET		<br />
+            WINDOWS_CURTAIN_RAIL	<br />
+            <br />
+          </p>
+        </div>
+
+
+      </section>
       <section className='general-content'>
         <div className="d-flex justify-content-center">
           <div className="col-10 general-content__text">
