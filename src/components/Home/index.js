@@ -326,6 +326,47 @@ export const Home = (props) => {
 
 
       </section>
+      <section>
+        <h2 id="floor-plan-abbreviations"><strong>Floor plan abbreviations</strong></h2>
+        <ul>
+          <li>AC or A/C — Air Conditioner</li>
+          <li>B — Basin</li>
+          <li>BC —&nbsp; Bookcase</li>
+          <li>BV — Butterfly valve</li>
+          <li>CAB — Cabinet</li>
+          <li>CBD — Cupboard</li>
+          <li>CF —&nbsp; Concrete floor</li>
+          <li>CL — Closet</li>
+          <li>CLG — Ceiling</li>
+          <li>COL — Column</li>
+          <li>CW — Cavity wall</li>
+          <li>CT — Ceramic tile</li>
+          <li>D —&nbsp; Door or dryer</li>
+          <li>DS — Downspout</li>
+          <li>DW —&nbsp; Dishwasher</li>
+          <li>EF — Exhaust fan</li>
+          <li>FD — Floor drain</li>
+          <li>GM —&nbsp; Gas meter</li>
+          <li>HTR —&nbsp; Heater</li>
+          <li>HW —&nbsp; Hot water unit or tank</li>
+          <li>KIT —&nbsp; Kitchen</li>
+          <li>LIN —&nbsp; Linen cupboard</li>
+          <li>LTG — Lighting</li>
+          <li>MSB —&nbsp; Master switchboard</li>
+          <li>O or OV — Oven</li>
+          <li>REFRIG or REF — Refrigerator</li>
+          <li>SD — Smoke detector, sliding door, or sewer drain</li>
+          <li>SHR — Shower</li>
+          <li>WC — Toilet (water closet)</li>
+          <li>VENT —&nbsp; Ventilator</li>
+          <li>VP — Vent pipe</li>
+          <li>WIC — Walk-in closet</li>
+          <li>W — Window or washer</li>
+          <li>WD — Window</li>
+          <li>WH — Water heater</li>
+          <li>WR — Wardrobe</li>
+        </ul>
+      </section>
       <section className='general-content'>
         <div className="d-flex justify-content-center">
           <div className="col-10 general-content__text">
