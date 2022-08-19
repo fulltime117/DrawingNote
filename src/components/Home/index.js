@@ -1183,7 +1183,6 @@ export const Home = (props) => {
           </div>
 
           <div className="image-wrapper">
-            <img src="/images/autocad-shortcuts-guide-2_orig.jpg" alt="" />
             <img src="/images/AutoCAD-keyboard-shortcuts-1.jpg" alt="" />
           </div>
 
