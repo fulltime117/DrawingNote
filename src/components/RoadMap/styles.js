@@ -4,7 +4,7 @@ export const Fcontainer = styled.div`
   display: flex;
   position: fixed; 
   bottom: 20px;
-  left: 7px;
+  right: 7px;
 
     .f_container {
       z-index: 2000; 

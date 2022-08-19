@@ -3,8 +3,8 @@ import styled, { css } from 'styled-components'
 export const HomeContainer = styled.div`
   section {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 18%;
+    justify-content: flex-end;
+    padding-right: 18%;
   }
 
   .anotations {
