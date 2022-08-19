@@ -4,11 +4,11 @@ export const HomeContainer = styled.div`
   section {
     display: flex;
     justify-content: flex-end;
-    padding-right: 18%;
+    padding-right: 5%;
   }
 
   table {
-    margin-right: auto;
+    margin-left: auto;
   }
 
   h2 {
