@@ -7,6 +7,22 @@ export const HomeContainer = styled.div`
     padding-right: 18%;
   }
 
+  table {
+    margin-right: auto;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   .anotations {
     
   }

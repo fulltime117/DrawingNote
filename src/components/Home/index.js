@@ -326,8 +326,8 @@ export const Home = (props) => {
 
 
       </section>
+      <h2 id="floor-plan-abbreviations"><strong>Floor plan abbreviations</strong></h2>
       <section>
-        <h2 id="floor-plan-abbreviations"><strong>Floor plan abbreviations</strong></h2>
         <ul>
           <li>AC or A/C — Air Conditioner</li>
           <li>B — Basin</li>
@@ -1181,12 +1181,12 @@ export const Home = (props) => {
               </tbody>
             </table>
           </div>
-          <div className="d-flex justify-content-center">
-            <div className="col-10">
-              <img src="/images/autocad-shortcuts-guide-2_orig.jpg" alt="" />
-              <img src="/images/AutoCAD-keyboard-shortcuts-1.jpg" alt="" />
-            </div>
+
+          <div className="image-wrapper">
+            <img src="/images/autocad-shortcuts-guide-2_orig.jpg" alt="" />
+            <img src="/images/AutoCAD-keyboard-shortcuts-1.jpg" alt="" />
           </div>
+
         </div>
       </section>
       <SerchNumWrapper id='console-search'>
