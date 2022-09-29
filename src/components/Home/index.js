@@ -213,113 +213,89 @@ export const Home = (props) => {
         <div>
           <h2 id="list of autocad commands">List of Layers</h2>
           <p>
-            ANNO_SYMBOLS<br />
-            <br />
-            ANNO_TEXT	<br />
-            <br />
-            BEAMS	<br />
-            <br />
-            boxing	<br />
-            <br />
-            CEILING			<br />
-            <br />
-            CHECKS		<br />
-            <br />
-            COLUMN<br />
-            <br />
-            Defpoints	<br />
-            <br />
-            DOORS			<br />
-            DOORS_HEADER	<br />
-
-            DRAINAGE<br />
-            <br />
-            ELECTRIC_FIXTURE			<br />
-            ELECTRIC_LIGHT<br />
-            <br />
-            ELEVATIONS_CAPPING		<br />
-            ELEVATIONS_CHIMNEY		<br />
-            ELEVATIONS_DOORS			<br />
-            ELEVATIONS_DRAINAGE			<br />
-            ELEVATIONS_FENCE			<br />
-            ELEVATIONS_GATE			<br />
-            ELEVATIONS_GROUND			<br />
-            ELEVATIONS_HEDGE			<br />
-            ELEVATIONS_LEVEL			<br />
-            ELEVATIONS_LIGHTS			<br />
-            ELEVATIONS_MISC			<br />
-            ELEVATIONS_NEIGHBORE			<br />
-            ELEVATIONS_PIPESWORK			<br />
-            ELEVATIONS_POST		<br />
-            ELEVATIONS_ROOF			<br />
-            ELEVATIONS_ROOF_FASCIA_EAVE		<br />
-            ELEVATIONS_SVP			<br />
-            ELEVATIONS_VENT			<br />
-            ELEVATIONS_WALLS	<br />
-            ELEVATIONS_WINDOWS<br />
-            <br />
-            FITTING_CORNICE	<br />
-            FITTING_FIREPLACE			<br />
-            FITTING_FURNITURE_FIXED			<br />
-            FITTING_KITCHEN			<br />
-            FITTING_SANITARY<br />
-            FITTING_SKIRTING	<br />
-            FITTINGS_MIRROR_BUILT IN	<br />
-            <br />
-            HATCH	<br />
-            <br />
-            LEVELS_CEILING			<br />
-            LEVELS_FLOOR			<br />
-            LEVELS_WINDOWS<br />
-            <br />
-            MISC	<br />
-            <br />
-            pipes			<br />
-            plinth	<br />
-
-            ROOF			<br />
-            ROOF_CHIMNEY			<br />
-            ROOF_JOIST			<br />
-            ROOF_RAFTER		<br />
-            <br />
-            section lines	<br />
-            <br />
-            SERVICES_PIPEWORK			<br />
-            SERVICES_RADIATORS			<br />
-            SERVICES_SUPPLY			<br />
-            SERVICES_SVP			<br />
-            SERVICES_VENT	<br />
-            <br />
-            SKYLIGHT		<br />
-            <br />
-            STAIR RAILING		<br />
-            STAIRS			<br />
-            STEPS	<br />
-            <br />
-            T-BOLES<br />
-            T-CANOPIES<br />
-            T-FENCE<br />
-            T-FOLLIAGE<br />
-            T-GATE<br />
-            T-SURVEY_LEVELS<br />
-            T-TEXT<br />
-            T-WALL<br />
-
-            TOPO_CHANGE SURFACE		<br />
-            TOPO_DRAINAGE			<br />
-            TOPO_DROPKERB<br />
-            TOPO_HEDGE	<br />
-            TOPO_IC		<br />
-            TOPO_KERB	<br />
-            TOPO_WALL	<br />
-            <br />
-            WALLS	<br />
-            WALLS_TILE		<br />
-            WALLS_WOOD	<br />
-            <br />
-            WINDOWS		<br />
-            WINDOWS_CURTAIN_PELMET		<br />
-            WINDOWS_CURTAIN_RAIL	<br />
+            0 <br />
+0-RCP <br />
+1-CHECK<br />
+ANNO_SYMBOLS<br />
+ANNO_TEXT<br />
+ANNO_TITLE<br />
+BEAMS<br />
+CEILING_SLOPE<br />
+Defpoints<br />
+DOORS<br />
+DOORS_HATCH<br />
+DOORS_HEADER<br />
+ELECTRIC_LIGHT<br />
+ELECTRIC_SWITCHES_PLUGS<br />
+ELEVATIONS_DOORS<br />
+ELEVATIONS_DRAINAGE<br />
+ELEVATIONS_FENCE	<br />
+ELEVATIONS_GROUND_LINE<br />
+ELEVATIONS_MISC<br />
+ELEVATIONS_NEIGHBOUR<br />
+ELEVATIONS_PIPEWORK<br />
+ELEVATIONS_ROOF<br />
+ELEVATIONS_ROOF_FASCIA_EAVES<br />
+ELEVATIONS_STEPS<br />
+ELEVATIONS_VENT<br />
+ELEVATIONS_WALLS<br />
+ELEVATIONS_WINDOWS<br />
+ELEVATIONS_WINDOWS_SKYLIGHT<br />
+FITTING_FLOOR_CHANGE<br />
+FITTING_FURNITURE_FIXED<br />
+FITTING_KITCHEN<br />
+FITTING_SANITARY<br />
+FITTING_SKIRTING<br />
+LEVELS_CEILING<br />
+LEVELS_FLOOR<br />
+LEVELS_WINDOWS<br />
+MISC<br />
+PRESUMED<br />
+ROOF<br />
+SERVICES_DRAINAGE<br />
+SERVICES_HEATING<br />
+SERVICES_M&E<br />
+SERVICES_PIPEWORK	<br />
+SERVICES_RADIATORS	<br />
+SERVICES_SWITCHES_SOCKETS<br />
+SERVICES_VENT<br />
+SERVICES_VENTING<br />
+STAIRS<br />
+STEPS<br />
+T-BANKING<br />
+T-BOLES<br />
+T-BUILDING<br />
+T-CANOPIES<br />
+T-CHANGE_OF_SURFAC	<br />
+T-DRAINAGE<br />
+T-DROPKERB<br />
+T-EL_RL<br />
+T-FENCE<br />
+T-FOLLIAGE<br />
+T-GATE<br />
+T-GRID<br />
+T-IC<br />
+T-KERB<br />
+T-L1-L2-L3 ETC<br />
+T-OVERHEAD_CABLES<br />
+T-POST_POLES<br />
+T-SERVICES<br />
+T-STEPS<br />
+T-STREET FURNITURE<br />
+T-SURVEY_LEVELS<br />
+T-SURVEY_STATIONS<br />
+T-TEXT<br />
+T-TITLE<br />
+T-TREES_CANOPIES_UNEDITED<br />
+T-WALL<br />
+WALLS<br />
+WALLS_PLINTH<br />
+WALLS_TILE<br />
+WALLS_WOOD<br />
+WINDOWS<br />
+WINDOWS_SKYLIGHT<br />
+WOOD_FRAMING<br />
+WOOD_RAFTERS<br />
             <br />
           </p>
         </div>
