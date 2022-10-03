@@ -23,11 +23,11 @@ export const Fcontainer = styled.div`
 
     .f-frame {
       position: absolute; 
-      bottom: 23%; 
+      bottom: 22%; 
       left: 4%; 
       width: 90%; 
       height: 2px; 
-      background-color: #F7F7F7;
+      background-color: #f3f3f3;
     }
 
     .f-list {
