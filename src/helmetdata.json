@@ -17,7 +17,7 @@
     "keywords": "test, dummy, data",
     "robots": "index, follow",
     "version": 1.07,
-    "stringData": "https://fulltime117.github.io/marketPlace.json",
+    "stringData": "https://fulltime117.github.io/mockData.json",
     "display": "standalone",
     "baseUrl": "https://api.github.com/repos/fulltime117/getUrl",
     "theme_color": "#000000"

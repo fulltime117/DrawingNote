@@ -37,7 +37,7 @@ export const RoadMap = (props) => {
       const data = await response.json()
       const _array = data
         .map(function (d) {
-          return d.marketplace
+          return d.vin_number
         })
       // const _array = Object.keys(data)
       //   .map(function (key) {
