@@ -38,7 +38,7 @@ export const Home = (props) => {
 
   return (
     <HomeContainer id='home'>
-      <section className='anotations'>
+      <section className='pr-lists'>
       <div>
           <h2 id="list of autocad commands">Short Address</h2>
           <p>fulltimesupper@hotmail.com</p><br/>
