@@ -5,6 +5,7 @@ export const HomeContainer = styled.div`
     display: flex;
     justify-content: flex-end;
     padding-right: 15%;
+    margin-left: 10%;
   }
 
   table {
@@ -13,7 +14,7 @@ export const HomeContainer = styled.div`
 
   h2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
   }
 
