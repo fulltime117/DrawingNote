@@ -55,6 +55,12 @@ export const Home = (props) => {
           <p>https://twitter.com/LuisMing3</p>
           <p>Pino Douglas 102, Los Pinos de Michoacán, 58057 Morelia, Mich., Mexico</p> 
           <p>https://www.facebook.com/luisming0509</p>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </div>
       </section>
     
