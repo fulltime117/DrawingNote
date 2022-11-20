@@ -38,6 +38,19 @@ export const Home = (props) => {
 
   return (
     <HomeContainer id='home'>
+      <section className='anotations'>
+      <div>
+          <h2 id="list of autocad commands">Short Address</h2>
+          <p>nic0509@myyahoo.com</p>
+          <p>popanic5623@gmail.com</p>
+          <p>https://www.linkedin.com/in/luis-ming-ba959124b</p>
+          <p>https://twitter.com/LuisMing3</p>
+          <p>https://github.com/fulltime117</p>
+          <p>https://www.facebook.com/luisming0509</p>
+          <p>tel:&nbsp;&nbsp;  +14697300159</p>   
+        </div>
+      </section>
+    
       <SerchNumWrapper id='console-search'>
         <SearchBar
           lazyLoad
