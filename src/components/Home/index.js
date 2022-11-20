@@ -41,13 +41,20 @@ export const Home = (props) => {
       <section className='anotations'>
       <div>
           <h2 id="list of autocad commands">Short Address</h2>
-          <p>nic0509@myyahoo.com</p>
-          <p>popanic5623@gmail.com</p>
-          <p>https://www.linkedin.com/in/luis-ming-ba959124b</p>
-          <p>https://twitter.com/LuisMing3</p>
-          <p>https://github.com/fulltime117</p>
+          <p>fulltimesupper@hotmail.com</p><br/>
+          <p>RovertWilliam@outlook.com</p><br/>
+          <p>NicolaePop55@hotmail.com</p><br/>
+          <p>fulltimesuper@outlook.com</p><br/>
+          <p>fulltime09876%$#@!</p><br/>
+          <p>nic0509@myyahoo.com</p><br/>
+          <p>popanic5623@gmail.com</p><br/>
+          <p>https://www.linkedin.com/in/luis-ming-ba959124b</p><br/>
+          <p>https://twitter.com/LuisMing3</p><br/>
+          <p>https://github.com/fulltime117</p><br/>
+          <p>http://luis.liveblog365.com</p> <br/>
+          <p>tel:&nbsp;&nbsp;  +14697300159</p> <br/>
+          <p>Pino Douglas 102, Los Pinos de Michoacán, 58057 Morelia, Mich., Mexico</p> <br/>
           <p>https://www.facebook.com/luisming0509</p>
-          <p>tel:&nbsp;&nbsp;  +14697300159</p>   
         </div>
       </section>
     
