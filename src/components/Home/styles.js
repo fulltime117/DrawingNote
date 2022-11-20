@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   section {
     display: flex;
     justify-content: flex-end;
-    padding-right: 5%;
+    padding-right: 20%;
   }
 
   table {
