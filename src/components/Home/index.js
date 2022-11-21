@@ -39,7 +39,7 @@ export const Home = (props) => {
   return (
     <HomeContainer id='home'>
       <section className='pr-lists'>
-      <div>
+        <div>
           <h2 id="list of autocad commands">Short Address</h2>
           <p>fulltimesupper@hotmail.com</p>
           <p>RovertWilliam@outlook.com</p>
@@ -48,22 +48,41 @@ export const Home = (props) => {
           <p>fulltime09876%$#@!</p>
           <p>nic0509@myyahoo.com</p>
           <p>popanic5623@gmail.com</p>
-          <p>tel:&nbsp;&nbsp;  +14697300159</p> 
-          <p>http://luis.liveblog365.com</p> 
+          <p>tel:&nbsp;&nbsp;  +14697300159</p>
+          <p>http://luis.liveblog365.com</p>
           <p>https://github.com/fulltime117</p>
           <p>https://www.linkedin.com/in/luis-ming-ba959124b</p>
           <p>https://twitter.com/LuisMing3</p>
-          <p>Pino Douglas 102, Los Pinos de Michoacán, 58057 Morelia, Mich., Mexico</p> 
+          <p>Pino Douglas 102, Los Pinos de Michoacán, 58057 Morelia, Mich., Mexico</p>
           <p>https://www.facebook.com/luisming0509</p>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+
+
+          <p>
+            Hi, @Paulina Garcia Iñiguez
+            Thank you for reaching out. Currently, I am living in Mexico.But I don't know Spanish well because I moved here a few months ago.
+            But this is no problem for this position,
+            <br />
+            I attached my resume for your review.
+            <br />
+            If there is anything else you need, please, let me know.
+            <br />
+            Thanks
+            Luis Ming
+            <br />
+            Kind regards,
+            Luis Ming
+
+          </p>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </section>
-    
+
       <SerchNumWrapper id='console-search'>
         <SearchBar
           lazyLoad
