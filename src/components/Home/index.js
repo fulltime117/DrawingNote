@@ -58,20 +58,14 @@ export const Home = (props) => {
 
 
           <p>
-            Hi, @Paulina Garcia Iñiguez
-            Thank you for reaching out. Currently, I am living in Mexico.But I don't know Spanish well because I moved here a few months ago.
-            But this is no problem for this position,
-            <br />
-            I attached my resume for your review.
-            <br />
-            If there is anything else you need, please, let me know.
-            <br />
-            Thanks
-            Luis Ming
-            <br />
-            Kind regards,
-            Luis Ming
+            Thank you for reaching out. Currently, I am living in Mexico. <br />
+            But I don't know Spanish well because I moved here a few months ago. <br />Can we communicate in English? <br />If this is no problem for this position, I attached my resume for your review. <br />
+            If there is anything else you need, please, let me know.<br />
 
+            <br />
+            <br />
+            Kind regards,<br />
+            Luis Ming
           </p>
 
           <br />
