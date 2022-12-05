@@ -41,6 +41,19 @@ export const Home = (props) => {
       <section className='pr-lists'>
         <div>
           <h2 id="list of autocad commands">Short Address</h2>
+          <h4>InfoCenter</h4>
+          <p>viviend@codev.com</p>
+          <p>password</p>
+          <p>---app url---</p>
+          <p>authentication : 3003</p>
+          <p>students-app : 3001</p>
+          <p>users-app : 3000</p>
+          <p>applications-app : 3004</p>
+          <p>media-app : 3005</p>
+          <p>http://localhost:3003/graphql</p>
+
+
+          <h4>my</h4>
           <p>fulltimesupper@hotmail.com</p>
           <p>RovertWilliam@outlook.com</p>
           <p>NicolaePop55@hotmail.com</p>
@@ -58,20 +71,14 @@ export const Home = (props) => {
 
 
           <p>
-            Hi, @Paulina Garcia Iñiguez
-            Thank you for reaching out. Currently, I am living in Mexico.But I don't know Spanish well because I moved here a few months ago.
-            But this is no problem for this position,
-            <br />
-            I attached my resume for your review.
-            <br />
-            If there is anything else you need, please, let me know.
-            <br />
-            Thanks
-            Luis Ming
-            <br />
-            Kind regards,
-            Luis Ming
+            Thank you for reaching out. Currently, I am living in Mexico. <br />
+            But I don't know Spanish well because I moved here a few months ago. <br />Can we communicate in English? <br />If this is no problem for this position, I attached my resume for your review. <br />
+            If there is anything else you need, please, let me know.<br />
 
+            <br />
+            <br />
+            Kind regards,<br />
+            Luis Ming
           </p>
 
           <br />
