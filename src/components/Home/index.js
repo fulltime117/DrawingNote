@@ -50,6 +50,7 @@ export const Home = (props) => {
           <p>users-app : 3000</p>
           <p>applications-app : 3004</p>
           <p>media-app : 3005</p>
+          <p>gateway : 3002</p><br/>
           <p>http://localhost:3003/graphql</p>
 
 
