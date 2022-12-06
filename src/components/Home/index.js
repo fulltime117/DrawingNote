@@ -47,7 +47,7 @@ export const Home = (props) => {
           <p>---AnyDesk---</p>
           <p>598708875</p>
           <p>password0623</p>
-          <p>---app url---</p>
+          <p>---App URL---</p>
           <p>authentication : 3003</p>
           <p>students-app : 3001</p>
           <p>users-app : 3000</p>
