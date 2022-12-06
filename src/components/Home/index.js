@@ -44,6 +44,9 @@ export const Home = (props) => {
           <h4>InfoCenter</h4>
           <p>viviend@codev.com</p>
           <p>password</p>
+          <p>---AnyDesk---</p>
+          <p>598708875</p>
+          <p>password0623</p>
           <p>---app url---</p>
           <p>authentication : 3003</p>
           <p>students-app : 3001</p>
