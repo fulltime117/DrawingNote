@@ -44,6 +44,9 @@ export const Home = (props) => {
           <h4>InfoCenter</h4>
           <p>viviend@codev.com</p>
           <p>password</p>
+          <br/>
+          <p>npx typeorm migration:run</p>
+          <br/>
           <p>---AnyDesk---</p>
           <p>598708875</p>
           <p>password0623</p>
