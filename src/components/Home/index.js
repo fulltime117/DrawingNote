@@ -47,6 +47,11 @@ export const Home = (props) => {
           <br/>
           <p>npx typeorm migration:run</p>
           <br/>
+          <br/>
+          <p>joseleeworkspace@gmail.com</p>
+          <p>12345678</p>
+          <br/>
+          <br/>
           <p>---AnyDesk---</p>
           <p>598708875</p>
           <p>password0623</p>
