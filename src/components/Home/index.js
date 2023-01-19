@@ -146,6 +146,10 @@ export const Home = (props) => {
           <br />
           <p>ming@twotone.co</p>
           <br />
+
+          <p>ming55 ^^ twotone2023</p>
+          <br />
+
           <p>fulltimesupper@hotmail.com</p>
           <p>RovertWilliam@outlook.com</p>
           <p>NicolaePop55@hotmail.com</p>
