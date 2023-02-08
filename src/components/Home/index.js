@@ -46,6 +46,10 @@ export const Home = (props) => {
           <p>12345678</p>
           <br />
           <br />
+          <p>qa@freecast.com</p>
+          <p>12345678</p>
+          <br />
+          <br />
           <p>---AnyDesk---</p>
           <p>598708875</p>
           <p>password0623</p>
